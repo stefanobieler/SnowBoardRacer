@@ -1,0 +1,56 @@
+{
+    "name": "PlayerInputAction",
+    "maps": [
+        {
+            "name": "SnowBoard",
+            "id": "b0fd11ad-7c1b-41d4-afd2-22c246aeea9c",
+            "actions": [
+                {
+                    "name": "Tilt",
+                    "type": "Button",
+                    "id": "c54246fd-10a3-4d5b-b183-22ff0773edc6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "c9c6a3ee-3cf1-4e8f-8b68-fd01719c49f3",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tilt",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "c8682627-a1d8-42a3-a7a7-e6c32f0194be",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tilt",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "036c0478-cc51-4c07-8426-62be28dba5aa",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tilt",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
